@@ -449,7 +449,7 @@ a :hover{
 .swiper-pagination{
     margin-top: 50px;
 }
-@media screen and (max-width:375px){
+@media screen and (max-width:420px){
     .secpad-h{
     width: 100%;}
     .swiper-container-1{
