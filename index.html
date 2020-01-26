@@ -77,11 +77,32 @@
 					<!-- If we need scrollbar -->
 					
 				</div>
+				<div class="swiper-container swiper-container-4">
+					
+					<!-- Additional required wrapper -->
+					<div class="swiper-wrapper">
+						<!-- Slides -->
+						<div class="swiper-slide "><a href="#"><img src="aruaru_banner_sp.jpg"></a></div>
+						<div class="swiper-slide "><a href="#"><img src="shinkai_sp@2x.png"></a></div>
+						<div class="swiper-slide "><a href="#"><img src="minevisual@2x.png"></a></div>
+						<div class="swiper-slide "><a href="#"><img src="slide_passport_sp@2x.png"></a></div>
+						<div class="swiper-slide "><a href="#"><img src="home_slide_mobile_10@2x.png"></a></div>
+						...
+					</div>
+					<!-- If we need pagination -->
+					<div class="swiper-pagination"></div>
+				
+					<!-- If we need navigation buttons -->
+					
+					
+					<!-- If we need scrollbar -->
+					
+				</div>
 			</div>
 			
 			<section id="event">
 				<div class="secpad">
-					<div class="sectitle">
+					<div class="sectitle sectitle-e">
 						<h2>Event</h2><a class="viewmore" href="#">VIEW MORE</a>
 					</div>
 					<ul class="event-ul">
@@ -115,22 +136,25 @@
 							</div></a>
 						</li>
 					</ul>
-					<ul class="link">
-						<li>
-							<a href="#"><img src="open_close.png"></a>
-						</li>
-						<li>
-							<a href="#"><img src="fee.png"></a>
-						</li>
-						<li>
-							<a href="#"><img src="showtime.png"></a>
-						</li>
-						<li>
-							<a href="#"><img src="access.png"></a>
-						</li>
-					</ul>
+	
 				</div>
 			</section>
+			<div class="links">
+				<ul class="link">
+					<li>
+						<a href="#"><img src="open_close.png"></a>
+					</li>
+					<li>
+						<a href="#"><img src="fee.png"></a>
+					</li>
+					<li>
+						<a href="#"><img src="showtime.png"></a>
+					</li>
+					<li>
+						<a href="#"><img src="access.png"></a>
+					</li>
+				</ul>
+			</div>
 			<section id="pickup">
 				<div class="secpad">
 					<div class="sectitle">
@@ -247,6 +271,42 @@
 						<!-- If we need navigation buttons -->
 						
 					</div>
+					<div class=" swiper-container-3 swiper-container">
+						<!-- Additional required wrapper -->
+						
+						<!-- Slides -->
+						
+							<ul class="swiper-wrapper">
+								
+								<li class="swiper-slide">
+									<h3><span class="number number1">1</span>九州の近海</h3><a href="#"><img src="kinkai.png"></a>
+								</li>
+								<li class="swiper-slide">
+									<h3><span class="number number2">2</span>阿蘇　水の森</h3><a href="#"><img src="forest.png"></a>
+								</li>
+								<li class="swiper-slide">
+									<h3><span class="number number3"> 3</span>九州の外洋</h3><a href="#"><img src="shark.png"></a>
+								</li>
+								<li class="swiper-slide">
+									<h3><span class="number number4"> 4</span>かいじゅうアイランド</h3><a href="#"><img src="island.png"></a>
+								</li>
+									<li class="swiper-slide">
+									<h3><span class="number number5"> 5</span>九州の深海</h3><a href="#"><img src="deepsea.png"></a>
+								</li>
+								
+							</ul>					
+						
+						
+						
+						
+					
+						
+						<!-- If we need pagination -->
+						<div class="swiper-pagination"></div>
+						
+						<!-- If we need navigation buttons -->
+						
+					</div>
 					
 				</div>
 			</section>　
@@ -290,8 +350,11 @@
 							<script async charset="utf-8" src="https://platform.twitter.com/widgets.js">
 							</script>
 						</li>
-						<li>
+						<li class="fb-link-pc">
 							<iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FMarineWorld.uminonakamichi%2F&tabs=timeline&width=445&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="445" height="500" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
+						</li>
+						<li class="fb-link-sp">
+							<iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FMarineWorld.uminonakamichi%2F&tabs=timeline&width=375&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="375" height="500" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
 						</li>
 					</ul>
 				</div>
@@ -303,7 +366,7 @@
 	<section id="facility">
 		<div class="secpad">
 			<div class="sectitle">
-				<h2 class="facility-title">周辺施設<span class=facility-sub>周辺にも楽しいスポットがたくさん！</span></h2><a href="#" class="viewmore">詳細はこちら</a>
+				<h2 class="facility-title">周辺施設<br><span class=facility-sub>周辺にも楽しいスポットがたくさん！</span></h2><a href="#" class="viewmore">詳細はこちら</a>
 			</div>
 			<ul class="facility-list">
 				<li><img src="spot1.png"></li>
@@ -494,10 +557,66 @@
 		  },
 
 		});
+		var mySwiper = new Swiper ('.swiper-container-3', {
+		  // Optional parameters
+		  slidesPerView: 2,
+		  loop: true,
+	  
+		  // If we need pagination
+		  
+	  
+		  // Navigation arrows
+		  navigation: {
+			nextEl: '.swiper-button-next1',
+			prevEl: '.swiper-button-prev1',
+		  },
+	  
+		  // And if we need scrollbar
+		  scrollbar: {
+			el: '.swiper-scrollbar',
+		  },
+			pagination: {
+				el: '.swiper-pagination',
+				clickable: true,
+				type: 'bullets',
+				},
 
+		 
+ 		 autoplay: {
+    	delay: 3000,
+		  },
+
+		});
+		
+		
+		var mySwiper = new Swiper ('.swiper-container-4', {
+		  // Optional parameters
+		  
+		  loop: true,
+	      effect: 'fade',
+		  speed:2000,
+		  // If we need pagination
+		  
+	  
+		  // Navigation arrows
+		  pagination: {
+      	 	 el: '.swiper-pagination',
+     		 },
+
+	  
+		  // And if we need scrollbar
+		  scrollbar: {
+			el: '.swiper-scrollbar',
+		  },
+		 
+ 		 autoplay: {
+    	delay: 3000,
+		  },
+
+		});
 
 		
-		</script>
+	</script>
 		
 </body>
 </html>
