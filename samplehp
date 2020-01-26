@@ -1,0 +1,631 @@
+@charset "UTF-8";
+img{vertical-align:bottom}
+.secpad-h{
+    display:flex;
+    width:1000px;
+    margin:0 auto;
+    justify-content:space-between;
+    align-items:center;
+    padding:20px;
+font-family:'Lato', "游ゴシック", YuGothic, "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, sans-serif;
+font-weight: bold;
+font-size: 13px;
+}
+.secpad-h-sp{
+    display: none;
+}
+header{
+    position: fixed;
+    z-index: 3;
+    background-color: #fff;
+    width: 100%;
+}
+
+body{
+    font-family:  'Lato', "游ゴシック", YuGothic, "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, sans-serif
+}
+
+.language{
+    display:flex;
+    justify-content: flex-end;
+   margin-bottom: 10px;
+  
+}
+.language-sp{
+    display: none;
+}
+.header-open-close{
+    display:flex;
+    font-size: 12px;
+    
+}
+.header-logo{
+    width:150px;
+    margin-left: 300px;
+}
+.secpad{
+    width:900px;
+    margin:0 auto;
+}
+.menu{
+    width: 30px;
+    
+    margin-bottom:0px;
+}
+li{list-style: none;}
+
+.language-list a{
+    margin-left:15px;
+    font-size: 12px;
+    color: #1A355B;
+}
+.eigyou-info{
+    background-color: #022561;
+    color: white;
+    background-color: #003469;
+    padding:10px;
+}
+.eigyou-time{
+    background-color: #F5F5F5;
+padding: 10px;
+}
+.sectitle{
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding-top: 30px ;
+padding-bottom: 10px;
+color:#1A355B;
+
+}
+.sectitle h2{
+    font-size:27px;
+    font-weight: 600;
+}
+#event,#pickup,#staffblog,#Area{
+    background-color:#F5F5F5;
+}
+#Area{
+    padding-bottom: 60px;
+}
+.viewmore{
+    border-style:solid;
+border-width: medium;
+border-color: #1A355B;
+text-decoration: none;
+padding: 4px 6px;
+font-size: 12px;
+font-weight: bold;
+background-color: white;
+}
+.hero{
+    padding-top:136px ;
+  
+}
+.swiper-container-1{
+    width: 1200px;   
+}
+
+.swiper-slide img {
+  width: 100%;
+    
+}
+
+.swiper-container-2 img{
+    margin-top: 20px;
+    width: 95%;
+}
+
+.event-ul{
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding:30px 0px ;
+  
+}
+
+.event-ul a{
+    color: #1A355B;
+    width: 100%;
+}
+.event-li{
+    width: calc(50% - 5px);
+    color: #1A355B;
+    font-weight: 300;
+   padding: 0px 0px 50px 0px;
+   border-bottom:2px solid rgb(212, 210, 210);
+   background-color: white;
+   margin-bottom: 10px;
+   letter-spacing: 1.5px;
+}
+
+.event-li time{
+    font-size: 12px;
+}
+.event-li div:first-child{
+    overflow: hidden;
+
+}
+.event-li div:last-child{
+    font-weight: bold;
+    padding: 0px 15px;
+}
+.event-image{
+    width: 100%;
+    transition: .3s;
+}
+.link{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 20px;
+    padding-top: 40px;
+
+}
+.link li {
+    width: calc(25% - 3px);
+}
+.link li img{
+    width:100%;
+}
+.pickup-list{
+    display:flex;
+    justify-content: space-between;
+    
+}
+.pickup-list a{
+    color: #1A355B;
+}
+.pickup-list li{
+    width: calc(50% - 2px);
+    background-color: white;
+}
+.pickup-list li a {
+    display:flex;
+}
+a{
+    text-decoration: none;
+}
+
+.pickup-list div:first-child{
+    overflow: hidden;
+}
+
+.blog-list li div:first-child{
+    width: 200px;
+    overflow: hidden;
+    flex-shrink: 0;
+}
+
+.pickup-list div time,.blog-list div time{
+    font-size: 12px;
+}
+.pickup-list div p,.blog-list div p{
+    font-size: 13px;
+}
+.blog-list{
+    display: flex;
+    justify-content: space-between;
+}
+.blog-list li a {
+    display: flex;
+    color: #1A355B;
+    
+}
+.blog-list li{
+    width: calc(50% - 2px);
+    background-color: white;
+}
+.marinevoice{
+    padding: 50px 0px;
+}
+#news{
+    padding-top: 20px;
+}
+.news-list li {
+    border-bottom:rgb(212, 210, 210) 1px solid; 
+    padding-top: 20px;
+    letter-spacing: 1px;
+}
+.news-list li time{
+    font-weight: bold;
+    font-size: 12px;
+}
+.news-list li a{
+    font-weight: bolder;
+    color:#1A355B ; 
+}
+
+.news-list li a{
+    margin-left: 20%;
+}
+
+.area-list{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 100px;
+}
+.area-list li img{
+    width: 100%;
+}
+.area-list li{
+    width:calc(33% - 5px);
+}
+
+.instagram-list{
+    display: flex;
+    justify-content:space-between;
+}
+.area-list h3{
+    margin-bottom: 20px;
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    color:#1A355B ;
+}
+.number{
+   margin-right: 10px;
+   padding:  20px 10px 10px 10px;
+   color: #fff;
+   font-weight: bold;
+}
+.number1{
+    background-color: #195596;
+}
+.number2{
+    background-color: #0098A6;
+}
+.number3{
+   background-color:  #D19619;
+}
+.number4{
+    background-color: #B3658B;
+}
+.number5{
+    background-color: #755F8D;
+}
+.instagram-list li {
+    width:calc(25% - 3px)
+}
+.instagram-list li a img{
+    width: 100%;
+}
+.sns{
+    display: flex;
+    justify-content: space-between;
+}
+.sns a :hover{
+opacity: 1;
+}
+.sns li{
+    width:calc(50% - 5px);
+    
+}
+.pickup-list div{
+    height:200px;
+
+}
+.blog-list div{
+    height: 200px;
+}
+.event-li div:first-child{
+    height: 200px;
+}
+#facility{
+    background-color: #F5F5F5;
+    padding-bottom: 30px;
+}
+.facility-sub{
+    font-size: 16px;
+    margin-left: 16px;
+    letter-spacing: 1px;
+}
+.facility-list{
+    display: flex;
+    justify-content: space-between;
+}
+.facility-list li{
+    width:calc(33% - 5px);
+
+}
+.facility-list li img{
+    width: 100%;
+}
+.linklist ul{
+    display: flex;
+    flex-wrap: wrap;
+    margin:5px;
+}
+.linklist ul li{
+    margin:1px;
+}
+.secpad-i{
+    justify-content: space-between;
+    display: flex;
+    width:900px;
+    margin:0 auto;
+}
+.swiper-container-2 {
+    
+    height: auto;
+    width: 900px;
+    overflow: hidden;
+    padding-bottom: 50px !important;
+}
+.swiper-container-2 ul{
+    width: 900px;
+    justify-content: space-between;
+    display: flex;
+
+}
+.swiper-button-prev
+{
+    margin-left: 50px;
+    color: #F5F5F5 !important;
+}
+.swiper-button-next
+{
+    margin-right: 50px;
+    margin-bottom: 100px;
+    color: #F5F5F5 !important;
+}
+
+#sitemap{
+    background-color: #BBC0C8;
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+.sitemap-title{
+    color: #fff;
+    
+}
+.linklist ul li{
+ background-color: #A1ADB9;
+ padding: 10px 18px;
+ color: #fff;
+ font-size: 10px;
+ font-weight: bold;
+}
+#information{
+    background-color: #425876;
+}
+.secpad-i{
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+.info{
+    font-weight: bold;
+    color: #fff;
+    letter-spacing: 1px;
+}
+.address{
+    font-size: 10px;
+    margin-top: 20px ;
+    margin-bottom:10px;
+}
+.address-sp{
+    display: none;
+}
+.tel{
+    font-size: 12px;
+    letter-spacing: 1.5px;
+    margin-bottom: 2px;
+}
+.cr{
+    color: #919191;
+    font-size: 10px;
+    font-weight: normal;
+}
+.contact{
+    font-size: 15px;
+   color: #fff;
+}
+.contact a{
+    color: #fff;
+}
+.logo{
+    width: 190px;
+}
+.viewmore {
+    color:#1A355B ;
+}
+.event-image:hover {
+    transform: scale(1.2);
+}
+a :hover{
+    opacity: .7;
+    transition: .3s;
+}
+.contact a :hover,.news-list a:hover,.language a:hover{
+    text-decoration:underline !important
+}
+.viewmore:hover{
+    background-color:#1A355B;
+    color: #F5F5F5;
+}
+.swiper-slide img:hover{
+    opacity:1!important;
+
+}
+.swiper-pagination{
+    margin-top: 50px;
+}
+@media screen and (max-width:375px){
+    .secpad-h{
+    width: 100%;}
+    .swiper-container-1{
+        width:100%
+    }
+    
+    .event-ul{display: block;}
+    .event-li{width: 100%;}
+    .secpad{width: 100%;}
+    .marinevoice a img{width: 100%;}
+    .swiper-container-2{
+        width: 100%;
+    }
+    .blog-list{
+        display: block;
+    }
+    .blog-list li{
+        width: 100%
+    }
+    .blog-list li div:first-child {
+        width: 40%;
+    }
+    .blog-list li div:last-child {
+        width: 60%;
+    }
+    .pickup-list {
+        display: block;
+    }
+    .pickup-list li{
+        width: 100%
+    }
+    .pickup-list li div:first-child{
+        width: 40%;
+    }
+    .pickup-list li div:last-child {
+        width: 60%;
+    }
+    .news-list li time{
+        display: block;
+    }
+    .news-list li a{
+        display: block;
+    }
+    .news-list li a{
+        margin-left: 0px;
+    }
+    .sns{
+        display: block;
+    }
+    .sns li{
+        width: 100%;
+    }
+    .sns li img{
+        width: 100%;
+    }
+    .secpad-i{
+        flex-direction: column;
+        width: 100%;
+    }
+    .secpad-i .info{
+        order:2;
+    }
+    .secpad-i .logo{
+        order: 1;
+    }
+    .sns li iframe{
+        width: 100%;
+    }
+    .header-logo{
+        width: 100%;
+        margin-left: 0px;
+    }
+    .secpad-h div{
+        display: block;
+    }
+    .language-sp{
+        display: block;
+    }
+    .language{
+        display: none;
+    }
+    .link{
+        flex-wrap: wrap;
+    }
+    .link li {
+        width: calc(50% - 3px);
+        padding-top: 5px;
+    }
+    .link li img{
+        width:100%;
+    }
+    .secpad-h-sp{
+        display: block;
+    }
+    .secpad-h{
+        display: none;
+        font-family:'Lato', "游ゴシック", YuGothic, "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, sans-serif;
+    font-weight: bold;
+    font-size: 10px;
+    }
+    .secpad-h-sp div{
+        display: flex;
+        
+        justify-content:space-between;
+        align-items:center;
+        padding-left:20px;
+    font-family:'Lato', "游ゴシック", YuGothic, "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, sans-serif;
+    font-weight: bold;
+    font-size: 10px;
+
+    }
+    .header-logo{
+        width: 100px;
+        padding-left: 20px;
+        
+    }
+   .language-sp{
+       margin-right: 20px;
+   }
+   .header-open-close{
+    justify-content:center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+   }
+   .eigyou-time{
+       padding-right: 50px;
+   }
+   .hero{
+       padding-top: 120px;
+   }
+   header{
+       height: 120px;
+   }
+   .secpad{
+       width: 90%;
+   }
+   .info{
+    text-align: center;
+   }
+   .logo{
+    margin: 0px auto;
+    width: 100px;
+   }
+   .address{
+       display: none;
+   }
+   .address-sp {
+       font-size: 5px;
+       display: block;
+   }
+   .contact{
+    font-size: 5px;
+    }
+    .tel {
+    font-size: 5px;
+    }
+    .cr{
+        font-size: 5px;
+    }
+    .secpad-i{
+        padding-bottom: 10px;
+    }
+    .linklist ul li{
+        padding: 7px 8px;
+
+    }
+    .sectitle{
+        padding-top: 0px;
+    }
+　　.sectitle h2{
+    font-size:15px;
+    }
+    .linklist ul{
+        margin: 0px;
+    }
+    .facility-list{
+        font-size: 15px;
+    }
+}
