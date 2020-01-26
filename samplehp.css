@@ -97,6 +97,7 @@ padding: 4px 6px;
 font-size: 12px;
 font-weight: bold;
 background-color: white;
+color:#1A355B ;
 }
 .hero{
     padding-top:136px ;
@@ -110,7 +111,9 @@ background-color: white;
   width: 100%;
     
 }
-
+.swiper-container-4{
+    display: none;
+}
 .swiper-container-2 img{
     margin-top: 20px;
     width: 95%;
@@ -166,6 +169,9 @@ background-color: white;
 }
 .link li img{
     width:100%;
+}
+.links{
+    background-color: #F5F5F5;
 }
 .pickup-list{
     display:flex;
@@ -338,6 +344,10 @@ opacity: 1;
 .linklist ul li{
     margin:1px;
 }
+.link{
+    width: 900px;
+    margin: 0 auto ;
+}
 .secpad-i{
     justify-content: space-between;
     display: flex;
@@ -425,9 +435,7 @@ opacity: 1;
 .logo{
     width: 190px;
 }
-.viewmore {
-    color:#1A355B ;
-}
+
 .event-image:hover {
     transform: scale(1.2);
 }
@@ -448,6 +456,18 @@ a :hover{
 }
 .swiper-pagination{
     margin-top: 50px;
+}
+.facility-title br{
+display: none;
+}
+.swiper-container-3{
+    display: none;
+}
+.fb-link-sp{
+    display: none;
+}
+.fb-link-pc{
+    display: block;
 }
 @media screen and (max-width:420px){
     .secpad-h{
@@ -533,6 +553,7 @@ a :hover{
     }
     .link{
         flex-wrap: wrap;
+        width: 100%;
     }
     .link li {
         width: calc(50% - 3px);
@@ -618,9 +639,11 @@ a :hover{
     }
     .sectitle{
         padding-top: 0px;
+        align-items: flex-start;
+        padding-top: 30px;
     }
-　　.sectitle h2{
-    font-size:15px;
+　　.secpad div h2{
+    font-size:15px!important;
     }
     .linklist ul{
         margin: 0px;
@@ -628,4 +651,85 @@ a :hover{
     .facility-list{
         font-size: 15px;
     }
+    .facility-title br{
+        display: block;
+    }
+    .sitemap-title{
+        font-size:20px !important;
+        
+    }
+    .viewmore{
+        color: #F5F5F5;
+        background-color: #2C4990;
+        border-color: #2C4990;    
+        margin-top: 3px;
+    }
+    .facility-sub{
+        font-size: small;
+        margin-left: 0px;
+    }
+    .number{
+        font-size: 10px;
+        padding: 2px 4px;
+    }
+    h3{
+        font-size: 12px;
+    }
+    .swiper-container-3{
+        display: block;
+    }
+    .swiper-container-2{
+        display: none;
+    }
+    
+    .swiper-container-3 {
+        
+        height: auto;
+        overflow: hidden;
+        padding-bottom: 50px !important;
+    }
+    .swiper-container-3 ul{
+        justify-content: space-between;
+        display: flex;
+    }
+
+    .swiper-container-3 img{
+        margin-top: 5px;
+        width: 95%;
+    }
+    .news-list a{
+        font-size: 12px;
+    }
+    .news-list time{
+        font-size: 6px !important;
+    }
+    .pickup-list div{
+      height: auto;
+    }
+    .pickup-list li{
+        margin-top: 20px;
+        border-bottom:2px solid rgb(212, 210, 210);
+    }
+    .blog-list div{
+        height: auto;
+      }
+    .blog-list li{
+        margin-top: 20px;
+        border-bottom:2px solid rgb(212, 210, 210);
+    }
+   .link{
+       padding-top: 0px;
+   }
+   .swiper-container-1{
+       display: none;
+   }
+   .swiper-container-4{
+       display: block;
+   }
+   .fb-link-pc{
+       display: none;
+   }
+   .fb-link-sp{
+       display: block;
+   }
 }
